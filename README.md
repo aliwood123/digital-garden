@@ -21,7 +21,7 @@ A personal website showcasing various interests and projects in crafting, coding
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/digital-garden.git
+   git clone https://github.com/aliwood123/digital-garden.git
    cd digital-garden
    ```
 
@@ -46,7 +46,6 @@ digital-garden/
 │   │   ├── crafting/     # Crafting category pages
 │   │   ├── coding/       # Coding category pages
 │   │   ├── ux-design/    # UX Design category pages
-│   │   ├── hobbies/      # Hobbies category pages
 │   │   ├── layout.tsx    # Root layout
 │   │   └── page.tsx      # Home page
 │   ├── components/       # Reusable components
