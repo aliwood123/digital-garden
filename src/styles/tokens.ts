@@ -1,0 +1,120 @@
+export const tokens = {
+  colors: {
+    // Brand colors
+    brandBlue: {
+      50: '#e0effa',
+      100: '#b3d6ec',
+      200: '#8abfe0',
+      300: '#5fa7d3',
+      400: '#3d93c7',
+      500: '#1a7ebb', // main swatch (matches your image)
+      600: '#15689a',
+      700: '#105179',
+      800: '#0a3b58',
+      900: '#052438',
+    },
+    brandPeach: {
+      50: '#fff2db',
+      100: '#ffe0b2',
+      200: '#ffd180',
+      300: '#ffc04d',
+      400: '#ffb01a',
+      500: '#ffb86b', // main swatch (matches your image)
+      600: '#cc924e',
+      700: '#996d38',
+      800: '#664823',
+      900: '#332411',
+    },
+    brandGreen: {
+      50: '#e6f4df',
+      100: '#c2e6b3',
+      200: '#9fd885',
+      300: '#7cca57',
+      400: '#5ebd2e',
+      500: '#bada9d', // main swatch (matches your image)
+      600: '#8fae7a',
+      700: '#647257',
+      800: '#393634',
+      900: '#1d1b1a',
+    },
+    // Primary colors
+    primary: {
+      50: 'rgb(240, 249, 255)',
+      100: 'rgb(224, 242, 254)',
+      200: 'rgb(186, 230, 253)',
+      300: 'rgb(125, 211, 252)',
+      400: 'rgb(56, 189, 248)',
+      500: 'rgb(14, 165, 233)',
+      600: 'rgb(2, 132, 199)',
+      700: 'rgb(3, 105, 161)',
+      800: 'rgb(7, 89, 133)',
+      900: 'rgb(12, 74, 110)',
+    },
+    // Neutral colors
+    neutral: {
+      50: 'rgb(250, 250, 250)',
+      100: 'rgb(244, 244, 245)',
+      200: 'rgb(228, 228, 231)',
+      300: 'rgb(212, 212, 216)',
+      400: 'rgb(161, 161, 170)',
+      500: 'rgb(113, 113, 122)',
+      600: 'rgb(82, 82, 91)',
+      700: 'rgb(63, 63, 70)',
+      800: 'rgb(39, 39, 42)',
+      900: 'rgb(24, 24, 27)',
+    },
+  },
+  spacing: {
+    xs: '0.5rem',
+    sm: '1rem',
+    md: '1.5rem',
+    lg: '2rem',
+    xl: '3rem',
+    '2xl': '4rem',
+  },
+  typography: {
+    fontFamily: {
+      'hey-eloise': '"Hey Eloise", serif',
+      'playpen': '"Playpen Sans", cursive',
+      sans: 'Inter, system-ui, sans-serif',
+      mono: 'JetBrains Mono, monospace',
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+    },
+    fontWeight: {
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+    },
+  },
+  animation: {
+    duration: {
+      fast: '150ms',
+      normal: '300ms',
+      slow: '500ms',
+    },
+    easing: {
+      default: 'cubic-bezier(0.4, 0, 0.2, 1)',
+      linear: 'linear',
+      in: 'cubic-bezier(0.4, 0, 1, 1)',
+      out: 'cubic-bezier(0, 0, 0.2, 1)',
+      inOut: 'cubic-bezier(0.4, 0, 0.2, 1)',
+    },
+  },
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    '2xl': '1536px',
+  },
+} as const; 
