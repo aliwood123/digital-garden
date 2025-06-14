@@ -1,10 +1,17 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Digital Garden',
-  description: 'A curated collection of thoughts, projects, and explorations.',
+  description: 'A collection of projects in coding, UX design, and crafting',
+  icons: {
+    icon: '/images/profile.png',
+    apple: '/images/profile.png',
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +32,7 @@ export default function RootLayout({
           }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 } 
